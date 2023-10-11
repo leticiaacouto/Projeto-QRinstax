@@ -1,2 +1,1 @@
-# projeto-QRinstax
-Qrinstax
+
