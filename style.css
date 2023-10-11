@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+  font-family: 'Concert One', sans-serif;
+  font-family: 'Crimson Text', serif;
+    font-size: x-large;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/concertone/v21/VEM1Ro9xs5PjtzCu-srDqSTsjP6yuQ.woff2) format('woff2');
+    color: #4b4b49;
+    text-align: center;
+    background-color: #ffeac6;
+    text-shadow: 2px 2px 4px #cacaca;
+}
+body{
+  background-color: #000000;
+}
+
+.iconlogo{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+	
+}
+
+.iconlogo img{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 5%;
+  text-align: center;
+  border-radius: 16px;
+  padding: 5px 1px;
+  margin: 25px;
+  text-decoration: none;
+  color: #ffeac6;
+}
+
+.aside {  
+       
+    background:#8383837a; 
+    box-shadow: 1px 0px 1.2px 0px #e0ca7e; 
+    border-radius:3px;
+    width:300px;
+    padding:10px; 
+    font-size: medium;
+    text-shadow: 1px 1px 2px rgb(232, 183, 105), 0 0 25px #ffeac6, 0 0 5px rgb(235, 204, 138);
+}
+.aside ul {
+    list-style-type: none;
+}
+.aside ul li {
+  padding: 6px 0;
+}
+.aside ul li a i { font-size:1.1em; }
+
+.aside ul li a {
+  
+  position: relative;
+  display: inline-block;
+  padding: 4px 0;
+  font-size:1em;
+  font-family: 'Concert One', sans-serif;
+  font-family: 'Crimson Text', serif;
+  color: #ffeac6;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.aside ul li a::after {
+ 
+  position: absolute;
+  content: "";
+  top: 100%;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: #a07f45;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+.aside ul li a:hover {
+  color: #edca7f;
+}
+
+.aside ul li a:hover::after {
+  
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+.aside{ 
+    position: fixed;
+            top: 0;
+            right: 0;
+            
+ }
+
+article{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 80px;
+  
+}
+
+ div.gallery {
+  margin: 5px;
+  border: 2px solid #cccccc;
+  float: left;
+  width: 300px;
+  gap: 2px;
+  padding: 5px;
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #ffeac6;
+  transform: scale(1.1, 1.1);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+div.gallery-desc {
+  padding: 15px;
+  color: #fffdeb;
+    text-align:end;    
+    text-shadow: 2px 2px 4px #ffeac6;
+    font-family: 'Concert One', sans-serif;
+    font-family: 'Crimson Text', serif;
+    display: flex;
+     align-items: flex-end;
+
+}
+
+
+ .footer{
+  background-color:#fbe4bd;
+	width: 100%;
+	height:100%;
+	float: left;
+	font-size: 18px;
+  font-family: 'Concert One', sans-serif;
+  font-family: 'Crimson Text', serif;
+  color: #000000;
+	padding: 50px 10px 50px 10px;
+  text-align: center;
+ }
+
+ .footer .footer-icons{
+	
+	width:100%;
+	float:left;
+	margin-bottom:20px;
+}
+
+.footer .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 50px;
+  font-family: 'Concert One', sans-serif;
+  font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	color: #ffeac6;
+	text-align: center;	
+	line-height: 35px;
+	margin-bottom: 5px;
+	transition:0.3s;
+}
+
+.footer-icons img{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 66%;
+  text-align: center;
+  border-radius: 16px;
+  padding: 10px 1px;
+  margin: auto;
+  text-decoration: none;
+  color: #ffeac6;
+}
+
+
+.footer .footer-icons a:hover{ background-color:#f78d9b; }
+
+
+ 
